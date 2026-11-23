@@ -1,68 +1,94 @@
-# Student-Activity-Management-Portal
-University Student Activity Management Portal using Semantic HTML
+# University Student Activity Management Portal
 
-# Lab Experiment 1: Semantic, Accessible HTML & the Browser Model (M1)
+## Lab Experiment 1: Semantic, Accessible HTML & the Browser Model (M1)
 
-## Scenario
-University Student Activity Management Portal
+### Project Overview
+The University Student Activity Management Portal is a web-based application developed using HTML5 semantic elements and accessibility standards. It allows students to explore upcoming university events, view student activities, and register for different events through an accessible registration form.
 
-## Aim
-To develop a University Student Activity Management Portal using semantic HTML5 elements and accessibility standards.
+### Objectives
+- Develop a webpage using HTML5 semantic elements.
+- Implement proper heading hierarchy.
+- Design an accessible student registration form.
+- Understand browser metadata and the browser document structure.
+- Perform accessibility testing using Lighthouse or WAVE.
+- Initialize and manage a Git repository.
 
-## Implementation
-
-### Question 1: Semantic HTML Structure
-Developed a webpage using:
-- Header
-- Navigation
-- Main
-- Section
-- Article
-- Aside
-- Footer
-
-Implemented a proper heading hierarchy.
-
-### Question 2: Accessible Registration Form
-Created a student registration form containing:
-- Text fields
-- Dropdown menus
-- Radio buttons
-- Checkboxes
-- Textarea
-- Labels and keyboard-accessible controls
-
-### Question 3: Browser Metadata, Accessibility Audit and Git
-- Configured browser metadata.
-- Performed accessibility audits using Google Lighthouse.
-- Initialized a Git repository.
-- Created meaningful Git commits.
-- Uploaded the project to GitHub.
-
-## Technologies Used
+### Technologies Used
 - HTML5
 - Visual Studio Code
-- Google Lighthouse
-- Git
-- GitHub
+- Google Chrome
+- Lighthouse / WAVE
+- Git and GitHub
 
-## Accessibility Audit Results
+### Project Structure
+```text
+Student-Activity-Management-Portal/
+│
+├── index.html
+├── README.md
+└── accessibility-report/
+    └── lighthouse-report.html
+```
 
-| Webpage | Lighthouse Accessibility Score |
-|---|---:|
-| Registration_form.html | 100/100 |
-| heading_hierarchy.html | 100/100 |
+### Features
 
-*Note: Scores represent automated Lighthouse results.*
+**1. Semantic Webpage Structure**
+- Header with university portal title.
+- Navigation bar with Home, Upcoming Events, Activities, Register and About Us.
+- Welcome section.
+- Upcoming Events section.
+- Student Activities section.
+- Important Notice using the aside element.
+- Footer with contact information.
 
-## Project Files
-- `heading_hierarchy.html`
-- `Registration_form.html`
-- `accessibility-report.txt`
-- `README.md`
-- `screenshots/`
+**2. Accessible Student Registration Form**
 
-## Result
-Successfully developed the University Student Activity Management Portal using semantic HTML5 elements, implemented an accessible student registration form, configured browser metadata, performed Lighthouse accessibility audits and initialized Git version control.
+The registration form includes:
 
-**Course:** Lab Experiment 1 – M1
+- Personal Information: Full Name, Email, Phone Number, Date of Birth and Gender.
+- Academic Information: Student ID, Department and Year of Study.
+- Event Registration: Technical Fest, Sports Day and Cultural Fest.
+- Additional Information: Preferred Activity Category and Comments.
+- Register Now and Reset Form buttons.
+
+**3. Accessibility Features**
+- Proper labels for all form controls.
+- Fieldset and legend for grouping related fields.
+- Keyboard accessibility.
+- Required field validation.
+- Appropriate heading hierarchy.
+- Semantic HTML5 elements.
+
+**4. Browser Metadata**
+- Character encoding using UTF-8.
+- Responsive viewport configuration.
+- Descriptive webpage title.
+- Language declaration.
+
+**5. Accessibility Audit**
+The webpage is tested using Google Lighthouse or WAVE to identify accessibility issues and improve the user experience.
+
+### How to Run the Project
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in Google Chrome or use Live Server.
+4. Explore the webpage and test the registration form.
+
+### Git Commands
+```bash
+git init
+git add .
+git commit -m "Initial commit: Create semantic HTML portal"
+git commit -m "Add accessible student registration form"
+git commit -m "Add project documentation and audit report"
+```
+
+### Expected Outcome
+A semantic and accessible University Student Activity Management Portal that allows students to explore university activities and register for upcoming events.
+
+### Conclusion
+This experiment demonstrates the practical implementation of HTML5 semantic elements, accessible form controls, browser metadata, accessibility auditing and Git version control.
+
+---
+**Lab Experiment:** 1  
+**Module:** M1 – Semantic, Accessible HTML & the Browser Model
